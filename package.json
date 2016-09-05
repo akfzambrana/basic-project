@@ -1,0 +1,37 @@
+{
+  "name": "basic-project",
+  "version": "0.4.0",
+  "description": "This is a boilerplate for a simple and basic web project using gulp, sass and some nice stuff",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.7",
+    "yargs": "^5.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akfzambrana/basic-project.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "frontend",
+    "sass",
+    "development",
+    "project",
+    "simple",
+    "basic"
+  ],
+  "author": "Andrea Zambrana <zambrana.akf@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akfzambrana/basic-project/issues"
+  },
+  "homepage": "https://github.com/akfzambrana/basic-project"
+}
