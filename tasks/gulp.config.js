@@ -1,8 +1,8 @@
 module.exports = {
   sourceDir: './assets',
   buildDir: './dist',
-  htmlDestDir: '/', // ex: '/html'
-  resourcesDestDir: '/', // ex: '/public'
+  htmlDestDir: '/',
+  resourcesDestDir: '/',
   browsersSupport: [
     'last 2 versions',
     '> 5%',
