@@ -10,11 +10,11 @@ gulp.task('copy', copyTask);
 function copyTask() {
   let copyHTML = gulp
         .src('**/*.html', {cwd: config.sourceDir + '/html'})
-        .pipe(gulp.dest(config.buildDir + '/'))
+        .pipe(gulp.dest(config.buildDir + htmlDestDir))
 
   let copyResources = gulp
-        .src('**/*.js', {cwd: config.sourceDir + '/'})
-        .pipe(gulp.dest(config.buildDir + '/'))
+        .src(['**/*', '!**/{' + config.excludeResourcesCopy + '}{,/**}'], {cwd: config.sourceDir + '/'})
+        .pipe(gulp.dest(config.buildDir + resourcesDestDir))
 
   return merge(
       copyHTML,
