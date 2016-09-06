@@ -3,6 +3,9 @@ module.exports = {
   buildDir: './dist',
   htmlDestDir: '/', // ex: '/html'
   resourcesDestDir: '/', // ex: '/public'
+  localhost: {
+    port: 3000
+  },
   browsersSupport: [
     'last 2 versions',
     '> 5%',
@@ -10,7 +13,6 @@ module.exports = {
   ],
   excludeResourcesCopy: [
     'html',
-    'doc',
     'styles',
     'sprites'
   ]

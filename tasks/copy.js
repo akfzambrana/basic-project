@@ -3,7 +3,7 @@
 let config = require('./gulp.config.js');
 let gulp = require('gulp');
 let merge = require('merge-stream');
-// let browserSync = require('browser-sync');
+let browserSync = require('browser-sync');
 
 gulp.task('copy', copyTask);
 
@@ -20,5 +20,5 @@ function copyTask() {
       copyHTML,
       copyResources
     )
-    .pipe(gulp.dest(config.buildDir + '/'));
+    .pipe(browserSync.reload({stream:true}));
 }
