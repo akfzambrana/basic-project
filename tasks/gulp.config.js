@@ -4,6 +4,6 @@ module.exports = {
   browsersSupport: [
     'last 2 versions',
     '> 5%',
-    'ie >= 9'
+    'ie >= 10'
   ]
 };
