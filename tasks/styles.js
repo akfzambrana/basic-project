@@ -7,6 +7,7 @@ let autoprefixer = require('gulp-autoprefixer');
 let sourcemaps = require('gulp-sourcemaps');
 let gutil = require('gulp-util');
 let argv = require('yargs').argv;
+let browserSync = require('browser-sync');
 
 let sassOptions = {
   errLogToConsole: true,
@@ -28,6 +29,7 @@ function stylesTask() {
     .pipe(sourcemaps.write())
     .pipe(autoprefixer())
     .pipe(gulp.dest(config.buildDir))
+    .pipe(browserSync.reload({stream:true}));
 }
 
 function onError(err) {

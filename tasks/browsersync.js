@@ -8,9 +8,9 @@ gulp.task('browserSync', browserSyncTask);
 
 function browserSyncTask() {
   return browserSync({
-    port: 3000,
+    port: config.server.port,
     server: {
-      baseDir: config.buildDir
+      baseDir: config.server.baseUrl
     }
   })
 }

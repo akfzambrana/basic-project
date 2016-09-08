@@ -3,7 +3,8 @@ module.exports = {
   buildDir: './dist',
   htmlDestDir: '/', // ex: '/html'
   resourcesDestDir: '/', // ex: '/public'
-  localhost: {
+  server: {
+    baseUrl: './dist',
     port: 3000
   },
   browsersSupport: [
@@ -14,6 +15,7 @@ module.exports = {
   excludeResourcesCopy: [
     'html',
     'styles',
-    'sprites'
+    'sprites',
+    'js'
   ]
 };
