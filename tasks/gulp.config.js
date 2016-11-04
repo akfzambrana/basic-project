@@ -3,6 +3,10 @@ module.exports = {
   buildDir: './dist',
   htmlDestDir: '/', // ex: '/html'
   resourcesDestDir: '/', // ex: '/public'
+  iconsSrcSvgDir: '/svg/icons', // ex: '/svg/icons''
+  iconFontDestDir: '/fonts/icons', // ex: '/fonts/icons'
+  iconsTemplatePath: '/templates/_icons.scss',
+  iconsPartialDestDir: '/styles', // ex: '/styles/elements/placeholders'
   server: {
     baseUrl: './dist',
     port: 3000

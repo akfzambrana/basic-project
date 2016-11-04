@@ -6,3 +6,5 @@ require('./tasks/copy.js');
 require('./tasks/browsersync.js');
 require('./tasks/watch.js');
 require('./tasks/default.js');
+
+require('./tasks/buildicons.js');
