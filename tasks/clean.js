@@ -7,5 +7,5 @@ let del = require('del');
 gulp.task('clean', cleanTask);
 
 function cleanTask() {
-    return del.sync(config.buildDir);
+  return del.sync(config.buildDir);
 }

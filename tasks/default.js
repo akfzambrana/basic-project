@@ -5,15 +5,15 @@ let argv = require('yargs').argv;
 let runSequence = require('run-sequence');
 
 let devTasks = [
-    'watch'
+  'watch'
 ];
 
 let prodTasks = [
-    'clean'
+  'clean'
 ];
 
 gulp.task('default', ['clean'], defaultTask);
 
 function defaultTask() {
-    argv.prod ? runSequence(prodTasks) : runSequence(devTasks);
+  argv.prod ? runSequence(prodTasks) : runSequence(devTasks);
 }
