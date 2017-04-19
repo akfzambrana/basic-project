@@ -1,24 +1,24 @@
 # Basic project
 Basic website project boilerplate
 
+## Dependencies
+To use this boilerplate you need to have installed **NodeJS** and **npm**.  
+
 ## Install
 ### project dependencies
 ```
 > npm install
 ```
-### client dependencies
-```
-> bower-installer
-```
-## gulp usage
+
+## Usage
 
 ### Development
 ```
-$ gulp
+$ npm run dev
 ```
 ### Production
 ```
-$ gulp --prod
+$ npm run prod
 ```
 
 ## Configuration/customization  
@@ -41,4 +41,3 @@ Every single piece of code in this project was tested in:
 - Edge  
 
 If your browser support is lower than IE10 and/or different from the test kit, you need to change the values in the browserSupport array inside `gulp.config.js` file.  
-
