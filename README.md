@@ -16,20 +16,9 @@ To use this boilerplate you need to have installed **NodeJS** and **npm**.
 ```
 $ npm run dev
 ```
-### Production
-```
-$ npm run prod
-```
 
 ## Configuration/customization  
 You can customize some things that fit better in your project in the `gulp.config.js` file. 
-
-- **sourceDir**: Name of the source files directory.  Is where your source files are originally. As default the name is **assets**. 
-- **buildDir**: Name of the build directory, where your compiled project will be. As default the name is **dist**.
-- **htmlDestDir**: Name of the HTML files will be. As default they are copied to the `/` directory.
-- **resourcesDestDir**: Name of the HTML files will be. As default they are copied to the `/` directory. 
-- **browsersSupport**: Use the [Browser list]() pattern
-- **excludeResourcesCopy**: List of directories that you don't want to be copied in the build directory. As default we exclude: **styles**, **html** and **sprites** directories.
 
 ## Browser support
 Every single piece of code in this project was tested in:
