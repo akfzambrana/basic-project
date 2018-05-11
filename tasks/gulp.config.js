@@ -1,7 +1,12 @@
 module.exports = {
   sourceDir: './src',
   buildDir: './build',
-  htmlDir: 'html',
+
+  filesDestNameDir: {
+    html: '',
+    js: 'js',
+    css: 'css',
+  },
 
   assets: [
     'images',

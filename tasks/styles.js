@@ -27,7 +27,7 @@ function stylesTask() {
     .pipe(sass(sassOptions).on('error', onError))
     .pipe(sourcemaps.write())
     .pipe(autoprefixer())
-    .pipe(gulp.dest(config.buildDir))
+    .pipe(gulp.dest( `${config.buildDir}/${config.filesDestNameDir.css}` ))
     .pipe(browserSync.reload({ stream: true }));
 }
 

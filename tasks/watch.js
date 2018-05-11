@@ -9,5 +9,6 @@ function watchTask() {
   gulp.watch(config.stylesFiles, ['styles']);
   gulp.watch('**/*.html', { cwd: config.sourceDir }, ['copy:html']);
   gulp.watch('**/*.js', { cwd: config.sourceDir }, ['copy:js']);
+  gulp.watch('**/*.css', { cwd: config.sourceDir }, ['copy:css']);
   gulp.watch(`{${config.assetsDir}}/**/*`, { cwd: config.sourceDir }, ['copy:assets']);
 }
