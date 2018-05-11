@@ -1,0 +1,11 @@
+/* line 1, src/component-a/_component-a.scss */
+.component-a {
+  background-color: gold;
+}
+
+/* line 3, src/main.scss */
+body {
+  background-color: tomato;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibWFpbi5jc3MiLCJzb3VyY2VzIjpbIm1haW4uc2NzcyIsImNvbXBvbmVudC1hL19jb21wb25lbnQtYS5zY3NzIl0sInNvdXJjZXNDb250ZW50IjpbIkBpbXBvcnQgJy4vY29tcG9uZW50LWEvY29tcG9uZW50LWEnO1xuXG5ib2R5IHtcbiAgYmFja2dyb3VuZC1jb2xvcjogdG9tYXRvO1xufVxuIiwiLmNvbXBvbmVudC1hIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogZ29sZDtcbn1cbiJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FDQUEsQUFBQSxZQUFZLENBQUM7RUFDWCxnQkFBZ0IsRUFBRSxJQUFJO0NBQ3ZCOzs7QURBRCxBQUFBLElBQUksQ0FBQztFQUNILGdCQUFnQixFQUFFLE1BQU07Q0FDekIifQ== */
