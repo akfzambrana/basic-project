@@ -1,7 +1,6 @@
 module.exports = {
   sourceDir: './src',
   buildDir: './build',
-  htmlDir: 'html',
 
   assets: [
     'images',
